@@ -173,37 +173,6 @@ footer {
 #submitButton:hover {
 	background-color: #39827E;
 }
-/*
-#projectOne {
-	background-image: url("images/placeholder1.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-#projectTwo {
-	background-image: url("images/placeholder2.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-#projectThree {
-	background-image: url("images/placeholder3.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-#projectFour {
-	background-image: url("images/placeholder4.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-#projectFive {
-	background-image: url("images/placeholder5.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-*/
 
 #connect {
 	background-color: #ffffff;
@@ -239,6 +208,19 @@ footer {
 	color: #ffffff;
 }
 
+@media screen and (max-width: 1200px) and (min-width: 991px){
+	#profile {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#para1 {
+		margin-top: 3%;
+	}
+
+}
+
 @media screen and (max-width: 991px) {
 	#content {
 		margin-bottom: 0;
@@ -256,19 +238,17 @@ footer {
 	.imgPortfolio {
 		width: 100%;
 	}
-}
 
-/*
-@media screen and (max-width: 980px) {
-	.projectPic{
-		width: 100%;
+	#profile {
+		margin-right: 4%;
+		float: left;
 	}
 }
-*/
+
 @media screen and (max-width: 768px) {
 	#profile {
-		width: 100%;
 		float: none;
+		width: 100%;
 		margin: 0 auto;
 	}
 
@@ -294,7 +274,14 @@ footer {
 	#navigation-bar-small {
 		display: none;
 	}
+}
 
+@media screen and (max-width: 640px) {
+	#profile {
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+	}
 }
 
 
