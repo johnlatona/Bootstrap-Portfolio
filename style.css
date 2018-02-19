@@ -52,6 +52,15 @@ li:last-child {
 footer {
 }
 
+.project-links {
+	color: white;
+}
+
+.project-links:hover {
+	color: lightgrey;
+}
+
+
 #name {
 	background-color: #4aaaa5;
 	height: 100%;
