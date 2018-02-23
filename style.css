@@ -217,6 +217,13 @@ footer {
 	color: #ffffff;
 }
 
+.description {
+	margin-top: 10px;
+	color: white;
+	font-size: 14px;
+	line-height: 20px;
+}
+
 @media screen and (max-width: 1200px) and (min-width: 991px){
 	#profile {
 		float: none;
